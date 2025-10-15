@@ -6,7 +6,8 @@ mdbook-sitemap-generator is a simple utility to generate sitemap.xml files for m
 
 ```
 git clone https://github.com/graves/mdbook-sitemap-generator
-cargo install .
+cd mdbook-sitemap-generator
+cargo install --path .
 ```
 
 ## Usage
@@ -32,3 +33,4 @@ book  book.toml  src
 $ mdbook-sitemap-generator -d docs.example.com -o book/sitemap.xml
 
 ```
+
